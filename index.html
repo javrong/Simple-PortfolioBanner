@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="/images/document-outline.svg">
+        <title>
+            Simple Portfolio
+        </title>
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+    </head>
+    <body>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <section class="banner" id="home">
+            <div class="image">
+                <img src="/images/foto.jpg" alt="">
+            </div>
+            <!--main_content-->
+            <div class="content">
+               <h1 class="logoText">My Portfolio</h1>
+               <div>
+                   <h4><span>Hello,</span> I'm</h4>
+                   <h2>M Thariq Sunu R</h2>
+                   <h4 class="job">I'm Ethical Hacker and Cyber Security</h4>
+                   <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                    deserunt mollit anim id est laborum."
+                   </p>
+                   <a class="about" href="#">About Me</a>
+               </div>
+               <!--social_media-->
+               <ul class="link">
+                   <li>
+                       <a href="https://www.facebook.com/ssoenoe/"><img src="/images/facebook-logo.png" alt=""></a>
+                   </li>
+                   <li>
+                       <a href="https://www.instagram.com/sunumd/"><img src="/images/instagram-logo.png" alt=""></a>
+                   </li>
+                   <li>
+                       <a href="https://www.linkedin.com/in/sunumd/"><img src="/images/linkedin-logo.png" alt=""></a>
+                   </li>
+                </ul>
+            </div>
+        </section>
+        <section class="aboutx">
+            <div class="aboutme">
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="contentx">
+                <div class="esay">
+                    <p>
+                        <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra, massa ac congue dapibus, 
+                        felis risus malesuada nulla, et pretium lectus turpis eu dui. Aenean vestibulum ante id iaculis ultrices. 
+                        Nunc finibus finibus nibh, at ultrices ante ultrices et. Vestibulum nec maximus tellus, vel venenatis elit. 
+                        Morbi vitae tellus pellentesque, aliquam est quis, luctus ex. Nullam ultricies vestibulum metus ut sollicitudin. 
+                        Praesent eu erat ac ante lacinia gravida. Mauris ut sem interdum, aliquet enim eu, ullamcorper mauris.<br><br>
+                        Etiam fringilla ornare auctor. Proin nec mattis eros. Nunc ac nisi sagittis, imperdiet quam non, tincidunt mi. 
+                        Cras sed neque massa. Mauris gravida enim nisi, et accumsan dui eleifend in. Nam semper et odio id bibendum. 
+                        Phasellus urna nulla, tempus ut venenatis vitae, imperdiet vel turpis. Nunc mattis sed velit sed semper. Nulla facilisi. 
+                        Nam eget pulvinar felis, sed fringilla ipsum. Ut pharetra rhoncus tortor a fringilla. 
+                        Sed eleifend libero at ex eleifend ullamcorper eu a mi. Nam leo ante, consequat non sem id, ultricies mollis enim. 
+                        Mauris pharetra orci sit amet ullamcorper blandit. Vestibulum ornare at eros eu dignissim. 
+                        Nulla risus massa, elementum sed eleifend vel, mollis eu neque.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="sidebar">
+            <ul class="menubar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profil</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <!--JS-->
+        <script>
+            function toggleMenu(){
+                const menuToggle=document.querySelector('.toggle');
+                const sidebar=document.querySelector('.sidebar');
+                menuToggle.classList.toggle('active');
+                sidebar.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
